@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+.mainchinh{
+	margin: 0;
+}
+
+.header{
+	display: flex;
+	align-items: flex-end;
+	
+
+	background-color: #f5e1de;
+	height: 100px;
+	padding: 0 50px;
+
+	width: 100%;
+	position: fixed;
+	border: inset;
+	z-index: 2;
+}
+
+.thanhsearch{
+	display: flex;
+}
+.timdc{
+	position: absolute;
+	top: 25px;
+	right: 200px;
+	
+}
+.stylebuttom{
+	background: transparent;
+	border: none;
+	border-bottom-style: solid !important;
+	border-bottom-color: #00674d !important;
+	color: #00674d;
+
+}
+.marginright{
+	margin-right: 40px;
+	font-weight: 400;
+	font-size: medium;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.marginright:hover{
+	color: slategrey !important;
+	cursor: pointer;
+}
+.noidung1{
+	background-image: url(./Hero\ banner\ \(Desktop\)_tcm90-72083.jpeg);
+	height: 500px;
+    background-size: cover;
+    background-position: center;
+
+}
+.monospace{
+	font-family: monospace;
+}
+.fantasy{
+	font-family: fantasy;
+}
+.sansserif{
+	font-family: sans-serif;
+	width: 160px;
+	border-bottom: dashed;
+	cursor: pointer;
+}
+.sansserif:hover{
+	opacity: 0.7;
+}
+.rif{
+	width: 222px !important;
+
+}
+.noidung2{
+	display: flex;
+	position: relative;
+	padding: 100px;
+}
+.layout1{
+	position: relative;
+	top: 100px;
+	padding-right: 150px;
+}
+.noidung3{
+	display: flex;
+	position: relative;
+	padding: 100px;
+}
+.layout4{
+	position: relative;
+	top: 100px;
+	padding-left: 150px;
+}
+.noidung4{
+	position: relative;
+	width: 100%;
+
+}
+.abumanh{
+	position: relative;
+	left: 130px;
+	z-index: 1;
+}
+.koreaimage{
+	position: relative;
+	left: 700px;
+	bottom: 340px;
+}
+.anhchu{
+	position: relative;
+	left: 730px;
+	bottom: 225px;
+}
+.line::before{
+	content: "";
+    position: absolute;
+    top: 339px;
+    left: 163px;
+    width: 88%;
+    height: 1px;
+    background-color: #cccccb;
+
+}
+.line::after{
+	content: "";
+    position: absolute;
+    left: 655px;
+    bottom: 100px;
+    width: 1px;
+    height: 80%;
+    background-color: #cccccb;
+}
+.footer{
+	height: 400px;
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.topfooter{
+	height: 100px;
+	border-bottom: inset;
+	background-color: lightgray;
+}
+.fa-facebook{
+	font-size: xx-large !important;
+	color: black;
+	position: relative;
+	top: 30px;
+	left: 100px;
+}
+.fa-instagram{
+	font-size: xx-large !important;
+	color: black;
+	position: relative;
+	top: 30px;
+	left: 150px;
+}
+.fa:hover {
+    opacity: 0.7 !important;
+}
+.centerfooter{
+	display: flex;
+	height: 170px;
+	padding-top: 40px;
+	
+
+}
+.textfooter{
+	margin-left: 100px;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	font-size: revert;
+}
+.textlogo{
+	position: relative;
+	top: 30px;
+	left: 500px;
+}
+.textlogo:hover{
+	-ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5.); 
+
+}
+.textbottom{
+	background-color: #f7f7f7;
+	padding: 20px 100px;
+}
+.inline{
+	display: flex;
+	position: relative;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	font-size: small;
+	
+}
+.kctext{
+	margin-right: 30px;
+	
+}
+.covietnam{
+	width: 16px;
+	height: 11px;
+	position: relative;
+	top: 19px;
+}
+.menuil{
+	margin-right: 30px;
+}
+.ba{
+	font-size: small;
+}
+.hai{
+	color: slategrey !important;
+	cursor: pointer;
+}
+.menuil:hover{
+	opacity: 0.7 !important;
+}
+h4{
+	font-weight: 400;
+	font-size: medium;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.buttonhv:hover{
+	opacity: 0.7 !important;
+	color: slategrey ;
+}
+.buttonhv{
+	cursor: pointer;
+}
